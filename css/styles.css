@@ -1,0 +1,17 @@
+header {
+  background-color: burlywood;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 20px;
+  
+}
+ul {
+  list-style-type: none;
+  background-color: gainsboro;
+}
+footer {
+  list-style-type: none;
+  background-color: blue;
+}
