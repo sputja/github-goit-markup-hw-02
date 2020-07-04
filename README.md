@@ -1,2 +1,2 @@
 # github-tutorial
-homework project completion
+homework2 project completion
