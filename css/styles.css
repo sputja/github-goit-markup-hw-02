@@ -1,17 +1,25 @@
-header {
-  background-color: burlywood;
+:root {
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-dark-theme-color: #ffffff;
+  --title-light-theme-color: #303030;
+  --modal-btn-dark-theme-color: #ffffff;
+  --modal-btn-light-theme-color: #303030;
+  --text-dark-theme-color: #9da4bd;
+  --text-light-theme-color: #555555;
+  --accent-color: #ff6c00;
 }
-
+header {color: aqua;
+}
 body {
-  font-family: Montserrat;
-  font-size: 20px;
-  
+  background-color: #ffffff;
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: var(--text-light-theme-color);
 }
 ul {
   list-style-type: none;
-  background-color: gainsboro;
-}
-footer {
+ }
+/* footer {
   list-style-type: none;
-  background-color: blue;
-}
+ } */
