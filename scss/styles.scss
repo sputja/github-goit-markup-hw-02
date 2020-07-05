@@ -1,7 +1,18 @@
 @import "_header";
-
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title__dark-color: #ffffff;
+  --title__light-color: #212121;
+  --btn__dark-color: #2196F3;
+  --btn__light-color: #303030;
+  --text__dark-color: #757575;;
+  --text__light-color: #ffffff;
+  --accent__color: #2196F3;
+}
 body{
-	font-family: Montserrat;
-	font-size: 20px;
-	background-color: gray;
+	font-family: var(--main-font);
+  font-size: 18px;
+  color: var(--text__dark-color);
+	background-color: #ffffff;
 }
