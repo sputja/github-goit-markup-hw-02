@@ -14,7 +14,6 @@ body {
   font-size: 14x;
 
   color: var(--text--dark-color);
-  /* background-color: #ffffff; */
 }
 ul > li {
   list-style: none;
@@ -69,9 +68,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 0.53;
-  /* display: flex; */
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--btn--light-color);
@@ -92,22 +88,15 @@ a {
   background-color: #F5F4FA;;
 }
 .about--title {
-  /* font-family:var(--main-font); */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
-  /* color: var(--title--light-color) */
 }
 .about--text .address .footer--text {
-  /* font-family:var(--main-font); */
   font-size: 14px;
   line-height: 1.71x;
   letter-spacing: 0.03em;
-  /* color: var(--title--litle-color); */
-  /* color: var(--title--litle-color); */
-}
 /* Разработки */
 .work--title{
 font-weight: 700;
