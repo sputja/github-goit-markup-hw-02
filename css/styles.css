@@ -92,11 +92,12 @@ a {
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.03em;
-}
+  }
 .about--text .address .footer--text {
   font-size: 14px;
   line-height: 1.71x;
   letter-spacing: 0.03em;
+}
 /* Разработки */
 .work--title{
 font-weight: 700;
