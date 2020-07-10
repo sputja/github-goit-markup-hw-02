@@ -1,14 +1,11 @@
 @charset "UTF-8";
-body {
-  background-color: #ffffff;
-}
-
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --title--dark-color: #212121;
   --title--light-color: #ffffff;
-  --btn--dark-color: #2196f3;
+  --btn--dark-color: #212121;
+  --btn--accent-color: #2196f3;
   --btn--light-color: #ffffff;
   --text--dark-color: #757575;
   --text--light-color: #ffffff;
@@ -30,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-/* шапка */
+/* Шапка и Логотип компании */
 .logotip {
   font-family: var(--secondary-fonty);
   font-weight: 700;
@@ -51,9 +48,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--title--dark-color);
 }
-.nav--contact {
-  color: var(--text--dark-color);
-}
 
 .nav:hover,
 .nav:focus,
@@ -68,8 +62,6 @@ a {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
-
   color: var(--title--light-color);
   background-color: grey;
 }
@@ -80,15 +72,11 @@ a {
   font-size: 16px;
   line-height: 0.53;
   letter-spacing: 0.06em;
-  align-items: center;
-  text-align: center;
-
   color: var(--btn--light-color);
-  background: var(--btn--dark-color);
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--btn--accent-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   width: 200px;
   height: 50px;
 }
@@ -104,62 +92,46 @@ a {
 .about--title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  
+  line-height: 1.36;
 }
 
 .about--text,
 .address,
 .footer--text {
-  line-height: 1.71px;
+  font-size: 14px;
+  line-height: 1.71x;
 }
 
 /* Разработки */
-.title--h2{
+.work--title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.16px;
-
-text-align: center;
-
-color: var(--title--dark-color);
-}
-.work--title{
-  font-weight: 700;
-  line-height: 1.14px;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
-
   color: var(--title--light-color);
-  background-color: grey;
-
-  padding: 20px;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 /* Команда разработчиков */
-.command--title,
-.command--text {
+.command--title .command--text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-
-  color: var(--title--dark-color);
+  text-align: center;
 }
 
 .command--text {
   font-weight: 400;
-  color: var(--text--dark-color);
 }
 
 /* Портфолио - шапка*/
 .button--list {
-  font-weight: 400;
+  font-family: var(--main-font);
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.63px;
-
-  width: 101px;
-  height: 26px;
-
-  color: #212121;
+  line-height: 1.62px;
+  letter-spacing: 0.03em;
+  color: var(--btn--dark-color);
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -171,7 +143,7 @@ color: var(--title--dark-color);
   font-size: 16px;
   line-height: 1.62;
   color: var(--btn--light-color);
-  background-color: var(--btn--dark-color);
+  background-color: var(--btn--accent-color);
 }
 
 /* Портфолио -Каталог Работ */
@@ -202,39 +174,33 @@ color: var(--title--dark-color);
 
 /* Координаты и обратная связь */
 .address {
-  color: var(--text--light-color);
+  color: rgba(255, 255, 255, 0.6);
   background-color: gray;
 }
 
 .footer--text {
-  font-weight: 700;
   color: var(--title--light-color);
-  background-color: rgb(47, 85, 255);
+  background-color: greenyellow;
 }
 
 .footer--buttom {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
- color: var(--title--light-color);
+  color: var(--title--light-color);
 }
+
 .footer--buttom:hover {
-  background-color: var(--btn--dark-color);
+  background-color: var(--btn--accent-color);
 }
+
+/* Логотип кампании */
 .footer--email {
-  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.25px;
- 
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background-color: aqua;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.6);
 }

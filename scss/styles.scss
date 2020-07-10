@@ -4,7 +4,8 @@
   --secondary-font: "Raleway", sans-serif;
   --title--dark-color: #212121;
   --title--light-color: #ffffff;
-  --btn--dark-color: #2196f3;
+  --btn--dark-color: #212121;
+  --btn--accent-color: #2196f3;
   --btn--light-color: #ffffff;
   --text--dark-color: #757575;
   --text--light-color: #ffffff;
@@ -23,8 +24,7 @@ ul > li {
 a {
   text-decoration: none;
 }
-/шапка/ 
-/* Логотип компании */
+/* Шапка и Логотип компании */
 .logotip {
   font-family: var(--secondary-fonty);
   font-weight: 700;
@@ -39,13 +39,11 @@ a {
 /* Панель навигации */
 .nav,
 .nav--contact{
-  /* font-family:var(--main-font); */
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--title--dark-color);
-  /* color: var(--title--light-color); */
 }
 .nav:hover,
 .nav:focus,
@@ -64,14 +62,14 @@ a {
   background-color: grey;
 }
 .button{
-  /* font-family:var(--main-font); */
+  font-family:var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 0.53;
   letter-spacing: 0.06em;
 
   color: var(--btn--light-color);
-  background: var(--btn--dark-color);
+  background: var(--btn--accent-color);
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -122,15 +120,14 @@ a {
 /* Портфолио - шапка*/
 .button--list {
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.63px;
+  line-height: 1.62px;
+  letter-spacing: 0.03em;
   
-  width: 101px;
-  height: 26px;
-
-  color: #212121;
+  color: var(--btn--dark-color);
   background: #f5f4fa;
+
   border-radius: 4px;
 }
 .button--list:hover,
@@ -141,7 +138,7 @@ a {
   line-height: 1.62;
 
   color: var(--btn--light-color);
-  background-color: var(--btn--dark-color);
+  background-color: var(--btn--accent-color);
 }
 /* Портфолио -Каталог Работ */
 
@@ -188,7 +185,7 @@ a {
   color: var(--title--light-color)
 }
 .footer--buttom:hover{
-  background-color: var(--btn--dark-color);
+  background-color: var(--btn--accent-color);
 }
 /* Логотип кампании */
 .footer--email {
