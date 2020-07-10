@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -98,8 +98,7 @@ a {
 .about--text,
 .address,
 .footer--text {
-  font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
 }
 
 /* Разработки */
@@ -176,6 +175,10 @@ a {
 .address {
   color: rgba(255, 255, 255, 0.6);
   background-color: gray;
+}
+
+.address--city {
+  color: var(--text--light-color);
 }
 
 .footer--text {
