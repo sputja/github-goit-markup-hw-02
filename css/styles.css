@@ -29,7 +29,7 @@ a {
 
 /* Шапка и Логотип компании */
 .logotip {
-  font-family: var(--secondary-fonty);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -84,10 +84,9 @@ a {
 
 /* Приимущества */
 .about--img,
-.work--img
-.about--img,
+.work--img .about--img,
 .work--img {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .about--title {
@@ -103,11 +102,22 @@ a {
 }
 
 /* Разработки */
+.title--h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+
 .work--title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
+  text-transform: uppercase;
   color: var(--title--light-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -174,12 +184,13 @@ a {
 
 /* Координаты и обратная связь */
 .address {
-  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   background-color: gray;
 }
 
 .address--city {
   color: var(--text--light-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer--text {
@@ -203,6 +214,8 @@ a {
 .footer--email {
   font-size: 16px;
   line-height: 1.25px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: rgba(255, 255, 255, 0.6);
 }
